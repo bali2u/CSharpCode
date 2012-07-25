@@ -21,6 +21,7 @@ namespace MultiFaceRec
     {
         //Declararation of all variables, vectors and haarcascades
         Image<Bgr, Byte> currentFrame;
+		Image<Bgr, Byte> currentFrame1;
 
         Capture grabber;
         HaarCascade face;
